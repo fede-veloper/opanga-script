@@ -1,0 +1,21 @@
+runtime {
+  key1 10
+  key2 12
+  flag1 
+  prop1 1
+  flag2
+  system1 {
+    prop2 12 10 14 18
+    prop3 3
+    ports 1234 5678 9102 
+    ports1 1
+    subsystem1 {
+      prop31 1 2 3
+      flag3
+    }
+    subsystem2 {
+      flag
+    }
+    prop4 3 4 5
+  }
+}

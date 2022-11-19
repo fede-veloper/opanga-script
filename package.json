@@ -1,0 +1,21 @@
+{
+  "name": "opanga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
